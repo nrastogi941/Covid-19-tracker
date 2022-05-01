@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Zen+Tokyo+Zoo&display=swap');
+
+.info_stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-Box{
+    flex:1;
+    cursor: pointer;
+}
+
+.info-Box:not(:last-child){
+    margin-right: 15px;
+}
+
+
+.info-Box--selected {
+    border-top: 10px solid yellowgreen !important;
+}
+
+.info-Box--red {
+    border-color:  red !important;
+}
+
+.info-cases--green{
+    color: lightgreen !important;
+}
+
+
+.info-Cases{
+    color:red;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.info-Total{
+    color:grey;
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+
+}

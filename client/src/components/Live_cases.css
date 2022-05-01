@@ -1,0 +1,19 @@
+.Live_cases{
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    background-color: white;
+
+}
+ .Live_cases tr:nth-of-type(odd){
+     background-color:#BBBBBB;
+ }
+
+ .Live_cases tr{
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .Live_cases td{
+     padding: 0.5rem;
+ }

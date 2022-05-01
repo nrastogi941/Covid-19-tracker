@@ -1,0 +1,13 @@
+.showintable {
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .showintable h3 {
+    margin: 20px;
+  }

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Zen+Tokyo+Zoo&display=swap');
+
+
+* {
+    margin:0;
+}
+
+.app{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-image: linear-gradient( 181deg,  rgba(225,109,245,1) 6.9%, rgba(78,248,231,1) 112.8% );
+}
+
+.header{
+    display: flex;  
+    justify-content: space-between;  
+    margin-bottom: 20px;    
+    align-items: center;   
+}
+
+.heading{
+    font-family: 'Zen Tokyo Zoo';
+    color:red;
+}
+
+.para{
+    margin-top: -2%;
+}
+
+.dropdown{
+    background-color:cyan;
+}
+
+
+.app_left{
+     flex:0.9;                /* left part take the 90% of total width */
+}
+
+.app_car{
+    width:94%;
+    margin-top: 0.05%;
+    margin-left:3%; 
+    margin-right:3%;
+    height: 100%;
+}
+
+.car_bg{
+    background-color: #EAE2B6;
+}
+
+.images{
+ height: 520px;
+}
+
+.g{
+    margin-top: 10px;
+}
+
+
+
+.world_img{
+    width: 30px;
+    padding-right:6px ;
+}
+
+.country_img{
+    width:40px;
+    padding-right:6px ;
+}
+
+.inside_menu{
+    margin-left: 10px;
+    width:40px;
+    height:40px;
+}
+
+.graph-heading{
+    margin-bottom: 10px;
+}
+
+.Cards{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 0.1% 0.1%;
+    height:fit-content;
+    
+}
+.Card_bg{
+     background-color: #AAD8D3;
+}
+
+
+
+
+ .links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+@media (max-width:940px) {
+      .app{
+          flex-direction: column;
+      }
+
+      .heading{
+          font-size: 120%;
+      }
+      .para{
+          font-size: 40%;
+          margin-top: -10%;
+          
+      }
+      .info_stats{
+          flex-direction: column;
+        
+      }
+      .MuiCard-root{
+          margin-bottom: 12px;
+      }
+      .info-Box{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+      .map{
+          margin-bottom: 30px;
+      }
+
+      .app_car{
+          width:100%;
+          margin: auto;
+      }
+      .images{
+          height:50%;
+      }
+      .car_h3,.car_p{
+          font-size: 60%;
+         
+      }
+      .car_h3,.car_p{
+          margin-bottom:-1%;
+      }
+
+      .Cards{
+          flex-direction: column;
+          align-items: center;
+      }
+      .Card{
+          margin-top: 3%;
+      }
+       
+    }
